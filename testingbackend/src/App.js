@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 function App() {
   const [responseBack, setResponseBack] = useState('');
   function fetchData() {
-    fetch('https://https://backendmessismo.onrender.com/api/v1/auth/health', {
+    fetch('https://backendmessismo.onrender.com/api/v1/auth/health', {
       method: 'GET'
     })
       .then(response => {
